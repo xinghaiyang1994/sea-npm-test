@@ -1,0 +1,19 @@
+{
+  "name": "sea-npm-test",
+  "version": "1.0.0",
+  "description": "just for test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinghaiyang1994/sea-npm-test.git"
+  },
+  "author": "xinghaiyang1994",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinghaiyang1994/sea-npm-test/issues"
+  },
+  "homepage": "https://github.com/xinghaiyang1994/sea-npm-test#readme"
+}
