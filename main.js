@@ -1,8 +1,8 @@
 const a = 1;
-const test = 'master branch'
+const test = 'dev branch'
 const dosome = function (txt) {
     console.log(txt)
-    console.log(1)
+    console.log(2)
     return txt
 }
 
