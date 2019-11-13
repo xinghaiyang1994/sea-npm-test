@@ -1,10 +1,10 @@
 {
   "name": "sea-npm-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "just for test",
-  "main": "main.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel ./src/index.js -o dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/xinghaiyang1994/sea-npm-test/issues"
   },
-  "homepage": "https://github.com/xinghaiyang1994/sea-npm-test#readme"
+  "homepage": "https://github.com/xinghaiyang1994/sea-npm-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
 }
