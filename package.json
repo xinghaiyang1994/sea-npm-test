@@ -1,6 +1,6 @@
 {
   "name": "sea-npm-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "just for test",
   "main": "./dist/index.js",
   "scripts": {
